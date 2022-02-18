@@ -13,7 +13,7 @@ import Character from './components/Character';
   useEffect(() => {
     axios.get("https://swapi.dev/api/people")
       .then(res => {
-        console.log(res.data);
+        // console.log(res.data);
         setCharacterList(res.data);
       })
       .catch(err => {
