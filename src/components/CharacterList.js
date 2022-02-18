@@ -1,7 +1,7 @@
-// Write your Character component here
 import React from 'react';
+// import Character from './Character';
 
-const Character = (props) => {
+const CharacterList = (props) => {
     return (
         <>
             {props.characterList.map(character=> {
@@ -17,8 +17,8 @@ const Character = (props) => {
                 </div>
         )
       })}
-    </>
+        </>
     )
 }
 
-export default Character;
+export default CharacterList;
